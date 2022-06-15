@@ -12,6 +12,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10px;
 }
 .navbar .nav_logo{
     display: flex;
@@ -21,9 +22,13 @@
 .nav_logo img{
     width: 175px;
 }
-
+.nav_logo_text > p{
+    font-size: 18px;
+    color: #707070;
+    font-weight: 600;
+}
 .menu_list{
-    margin-top: 40px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,12 +49,10 @@
 }
 .menu .link{
     width: 100%;
-    min-height: 28px;
+    min-height: 30px;
     padding: 10px;
-    text-align: center;
     cursor: pointer;
     border-radius: 5px;
-    /* background-color:#eae9fb; */
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;

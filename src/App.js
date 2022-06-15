@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import NumberToWord from './components/Form';
+import NumberToWord from './components/NumberToWord';
 import Form from './components/Form';
 import Game from './components/Game';
 import Text from './components/Text';

@@ -1,0 +1,35 @@
+.main{
+    width: calc(100% - 260px);
+    position: absolute;
+    top: 0;
+    left: 260px;
+}
+.page_title{
+    padding: 2% 4% 1%;
+    box-shadow: 0 3px 10px 4px #0a0a0a26;
+}
+.content{
+    margin: 4% auto;
+    width: 100%;
+}
+.form{
+    width: 50%;
+    margin: auto;
+}
+
+.inputbox{
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.btn{
+    color: #fff;
+    background-color: #695CFE;
+    border: none;
+    outline: none;
+    padding: 12px 30px;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 5px;
+}

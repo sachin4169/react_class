@@ -14,7 +14,7 @@ function Navbar() {
         </div>
 
       </div>
-
+<hr />
       <div className='menu_list'>
         <div className='menu'>
           <NavLink className="link" to='/'>Game</NavLink>

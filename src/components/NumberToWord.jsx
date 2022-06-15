@@ -2,7 +2,14 @@ import React from 'react'
 
 function NumberToWord() {
   return (
-    <div>NumberToWord</div>
+    <div className='main'>
+    <div className='page_title'>
+      <h1>Number To Word</h1>
+    </div>
+    <div className='content'>
+      
+    </div>
+  </div>
   )
 }
 
