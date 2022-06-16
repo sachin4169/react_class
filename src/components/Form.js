@@ -32,6 +32,7 @@ export default class Form extends Component {
         </div>
         <div className='content'>
           <div className='form'>
+           <h2 style={{textAlign: "center" , marginBottom:"10px" ,color:"1"}}>Display the values below the page on form submission</h2>
             <form onSubmit={this.handleSubmit}>
               <input className='inputbox' type="text" placeholder='First Name' name='fname' onChange={this.handleChange} /><br />
               <input className='inputbox' type="text" placeholder='Last Name' name='lname' onChange={this.handleChange} /><br />

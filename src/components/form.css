@@ -15,6 +15,9 @@
 .form{
     width: 50%;
     margin: auto;
+    border-radius: 15px;
+    padding: 10px 20px;
+    box-shadow: 0 0 20px 2px #6e6e6e73
 }
 
 .inputbox{
@@ -33,4 +36,10 @@
     font-size: 14px;
     border-radius: 5px;
     margin-bottom: 10px;
+    transition-delay: 10ms;
+}
+.btn:hover{
+    color: #695CFE;
+    background-color:#fff ;
+    border: 2px solid #695CFE;
 }

@@ -40,7 +40,7 @@ export default class Text extends Component {
         </div>
         <div className='content'>
           <div className='form'>
-           
+          <h2 style={{textAlign: "center" , marginBottom:"10px" ,color:"1"}}>Convert Text to Upper case /Lower Case based on click</h2>
               <label>Text Area</label><br />
 
               <textarea 

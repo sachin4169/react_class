@@ -113,16 +113,6 @@ export default class NumberToWord extends Component {
     var word = '';
     var x = this.lakhs(n2);
     var y = '';
-    // if (Number(n2) < 100) {
-    //   if (Number(n2) < 20) {
-    //     x = this.ones(n2)
-
-    //   } else {
-    //     x = this.tens(n2)
-    //   }
-    // } else {
-    //   x = this.hundreds(n2)
-    // }
     if (Number(n1) > 20) {
       y = this.tens(n1)
       word = y + " crore " + x
@@ -171,6 +161,7 @@ export default class NumberToWord extends Component {
         </div>
         <div className='content'>
           <div className='form'>
+          <h2 style={{textAlign: "center" , marginBottom:"10px" ,color:"1"}}>Number To Word Upto Crore only</h2>
             <input className='inputbox' type="number" placeholder='Number' onChange={this.handleChange} />
             <br />
             <p>{this.state.text}</p>
